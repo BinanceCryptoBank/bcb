@@ -478,7 +478,7 @@
     //  
     function hmepgchangeIndex(element) {
         TokenPage = element.dataset.hmepageId;
-        HomeToTokenPath();
+        HomeToToken();
         hmepgaddToken();
     };
     // -------------------- 

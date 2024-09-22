@@ -1892,7 +1892,7 @@
         //  Menu to home     ##### 1
             function MenuToHome() {
                 var id = `MenuToHomePath`;
-                // history.pushState({id}, `Binance`, `./#dashboard`);
+                history.pushState({id}, `Binance`, `./#dashboard`);
                 selectBox(id);
             };
             function MenuToHomePath(){
