@@ -316,7 +316,7 @@ class Settings extends HTMLElement{
                             <div class="container">
                                 
                                 <!-- Token container -->
-                                <div class="token-main-wrap" onclick="document.location.href='./js/support.html'">
+                                <div class="token-main-wrap" onclick="HelpToSupport()">
                                     <!-- Token image container -->
                                     <div class="settings-img-wrap">
                                         <div class="settings-img">

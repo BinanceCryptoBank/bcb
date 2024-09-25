@@ -50,7 +50,7 @@ class ForgetPassword extends HTMLElement{
                         
                         <div class="community-btn-wrap">
                             <!-- Button -->
-                            <div class="community-btn-con" onclick="document.location.href='./js/support.html'">
+                            <div class="community-btn-con" onclick="HelpToSupport()">
                                 <div class="container">
                                     <div class="community-btn">
                                         <div class="receive-send-link-btn one-line">Contact Community Admin</div>

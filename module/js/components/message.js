@@ -79,7 +79,7 @@ class Message extends HTMLElement{
         
                 
                     <!-- -------------------- Admin contact container -------------------- -->
-                    <div class="comm-chat-bottom" onclick="document.location.href='./js/support.html'">
+                    <div class="comm-chat-bottom" onclick="HelpToSupport()">
                         <div class="container">
                             <div class="receive-send-link-btn">
                                 <div class="receive-send-left-wrap">

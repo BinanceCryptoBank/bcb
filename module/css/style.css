@@ -4857,6 +4857,7 @@
     
     /* Messages */
     .comm-message {
+        box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.02), 1.5px 3px 3px 3px rgba(0, 0, 0, 0.04);
         color: #000;
         cursor: pointer;
         clear: both;
@@ -4870,7 +4871,7 @@
         width: -moz-min-content;
         width: -webkit-min-content;
         width: min-content;
-        max-width: 82.5%;
+        max-width: 97.5%;
         word-wrap: break-word;
     }
     .comm-message:after {
@@ -5768,9 +5769,25 @@
                     /* Layout container */
                     .comm-main-wrap {
                         background: var(--dark-background) url("../img/chatbackgroundd.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
                     }
                     .comm-main-con {
                         background: var(--dark-background) url("../img/chatbackgroundd.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, 0.75);
+                        display: flex;
+                        flex-direction: column;
+                        overflow-x: hidden;
+                        padding-top: 1.7em;
+                        height: 100%;
+                        width: 100%;
                     }
                     .admin-main-con {
                         background: var(--dark-background) url("../img/chatbackgroundd.png");

@@ -78,7 +78,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -124,7 +124,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -170,7 +170,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -217,7 +217,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -265,7 +265,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -311,7 +311,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -363,7 +363,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -409,7 +409,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -455,7 +455,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -502,7 +502,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -548,7 +548,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -594,7 +594,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -641,7 +641,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -691,7 +691,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -738,7 +738,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -784,7 +784,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -830,7 +830,7 @@ class Help extends HTMLElement{
                                         <!-- Bottom container -->
                                         <div class="container">
                                             <div class="accordion-question">Wasn't this enough?</div>
-                                            <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                            <div class="accordion-btn accordion-btn-changer">
                                                 <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                 <div class="accordion-btn-img">
                                                     <img src="svg/supportb.svg" class="img-fluid">
@@ -881,7 +881,7 @@ class Help extends HTMLElement{
                                             <!-- Bottom container -->
                                             <div class="container">
                                                 <div class="accordion-question">Wasn't this enough?</div>
-                                                <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                                <div class="accordion-btn accordion-btn-changer">
                                                     <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                     <div class="accordion-btn-img">
                                                         <img src="svg/supportb.svg" class="img-fluid">
@@ -927,7 +927,7 @@ class Help extends HTMLElement{
                                             <!-- Bottom container -->
                                             <div class="container">
                                                 <div class="accordion-question">Wasn't this enough?</div>
-                                                <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                                <div class="accordion-btn accordion-btn-changer">
                                                     <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                     <div class="accordion-btn-img">
                                                         <img src="svg/supportb.svg" class="img-fluid">
@@ -975,7 +975,7 @@ class Help extends HTMLElement{
                                             <!-- Bottom container -->
                                             <div class="container">
                                                 <div class="accordion-question">Wasn't this enough?</div>
-                                                <div class="accordion-btn" onclick="document.location.href='./js/support.html'">
+                                                <div class="accordion-btn accordion-btn-changer">
                                                     <span class="accordion-btn-txt">Contact Binance CryptoBank Support</span>
                                                     <div class="accordion-btn-img">
                                                         <img src="svg/supportb.svg" class="img-fluid">

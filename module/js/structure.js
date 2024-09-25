@@ -820,7 +820,7 @@
                     };
                 }isVerificationMenu();
                 
-                document.getElementById("verification-back-button-changer").onclick = function() { MenuToHome() };
+                document.getElementById("verification-back-button-changer").onclick = function() { MenuToHomePath() };
             };
         // -------------------- 
         
@@ -1206,6 +1206,11 @@
                 document.getElementById("help-header-back").setAttribute("onclick", "javascript: BackState()");
                 document.getElementById("help-right-back").setAttribute("onclick", "javascript: HelpToSupport()");
                 document.getElementById("help-bottom-back").setAttribute("onclick", "javascript: HelpToSupport()");
+                
+                var accordionBtn = document.getElementsByClassName("accordion-btn-changer");
+                for (let i = 0; i < accordionBtn.length; i++) {
+                    accordionBtn[i].setAttribute("onclick", "javascript: SettingToSupport()")
+                }
             };
         // -------------------- 
         
@@ -1410,7 +1415,7 @@
         //  Home to Community page     ##### 7
             function HomeToCommunity(){
                 var id = `HomeToCommunityPath`;
-                history.pushState({id}, `Binance`, `./#community`);
+                history.pushState({id: `BackToCommunity`}, `Binance`, `./#community`);
                 selectBox(id);
             };
             function HomeToCommunityPath(){
@@ -2461,6 +2466,11 @@
                 document.getElementById("help-header-back").setAttribute("onclick", "javascript: BackState()");
                 document.getElementById("help-right-back").setAttribute("onclick", "javascript: HelpToSupport()");
                 document.getElementById("help-bottom-back").setAttribute("onclick", "javascript: HelpToSupport()");
+
+                var accordionBtn = document.getElementsByClassName("accordion-btn-changer");
+                for (let i = 0; i < accordionBtn.length; i++) {
+                    accordionBtn[i].setAttribute("onclick", "javascript: SettingToSupport()")
+                }
             };
         // --------------------         
     //  -------------------- -------------------- -------------------- 
@@ -3828,7 +3838,7 @@
                 
                 document.getElementById("user-info-removebtn").onclick = function() { BackState() };
                 document.getElementById("user-exit-btn").onclick = function() { BackState() };
-                document.getElementById("userinfoslide-btn").onclick = function() { SettingToAssetPath() };
+                document.getElementById("userinfoslide-btn").onclick = function() { SettingToAsset() };
                 document.getElementById("userinfoslide-btn").style.display = "flex";
                 document.getElementById("assets-back-svg-btn").onclick = function() { BackState() }
                 document.getElementById("language-index").onclick = function() { SettingToLanguage() }
@@ -4249,6 +4259,11 @@
                 document.getElementById("help-header-back").setAttribute("onclick", "javascript: BackState()");
                 document.getElementById("help-right-back").setAttribute("onclick", "javascript: SettingToSupport()");
                 document.getElementById("help-bottom-back").setAttribute("onclick", "javascript: SettingToSupport()");
+
+                var accordionBtn = document.getElementsByClassName("accordion-btn-changer");
+                for (let i = 0; i < accordionBtn.length; i++) {
+                    accordionBtn[i].setAttribute("onclick", "javascript: SettingToSupport()")
+                }
             };
         // --------------------  
 
@@ -4639,12 +4654,8 @@
         // -------------------- 
         
         // Login
-        function logout() {
-            var id = `logoutPath`;
-            history.pushState({id}, `Binance`, `./#logout`);
-            selectBox(id);
-        };
-        function logoutPath() {
+        function logout()  {
+            history.pushState({id: `login`}, `Binance`, `./#logout`);
             var logg = document.getElementsByClassName("log-out-main");
             for (let i = 0; i < logg.length; i++) {
                 logg[i].style.display = "flex";

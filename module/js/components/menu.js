@@ -300,7 +300,7 @@ class Menu extends HTMLElement{
 
                         <!-- -------------------- Telegram button -------------------- -->
                             <div class="container">
-                                <div class="menu-telegram-btn" onclick="document.location.href='./js/support.html'">
+                                <div class="menu-telegram-btn" onclick="HelpToSupport()">
                                     <span class="menu-telegram-txt">Contact Binance Support</span>
                                     <div class="menu-telegram-img">
                                         <img src="svg/supportb.svg" class="img-fluid">
