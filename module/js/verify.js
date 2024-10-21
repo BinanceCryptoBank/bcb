@@ -1773,12 +1773,22 @@ function intervalTiming() {
             var timeNumber = Number(timeSplit[0])
             if (timeNumber >= 12) {
                 var timeWrap = timeNumber - 12
-                var timeDisplay = `${timeWrap}:${timeSplit[1]} PM`;
-                return timeDisplay;
+                if(timeWrap === 0){
+                	var timeDisplay = `${12}:${timeSplit[1]} PM`;
+                	return timeDisplay;
+                }else{
+                	var timeDisplay = `${timeWrap}:${timeSplit[1]} PM`;
+                	return timeDisplay;
+                }
             } else if(timeNumber < 12) {
                 var timeWrap = timeNumber
-                var timeDisplay = `${timeWrap}:${timeSplit[1]} AM`;
-                return timeDisplay;
+                if(timeWrap === 0){
+                	var timeDisplay = `${12}:${timeSplit[1]} AM`;
+                	return timeDisplay;
+                }else{
+                	var timeDisplay = `${timeWrap}:${timeSplit[1]} AM`;
+                	return timeDisplay;
+                }
             }
         }
         //
