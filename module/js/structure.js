@@ -3637,7 +3637,7 @@
         //  
             function SettingToCommunity() {
                 var id = `SettingToCommunityPath`;
-                history.pushState({id}, `Binance`, `./#community`);
+                history.pushState({id: `BackToCommunity`}, `Binance`, `./#community`);
                 selectBox(id);
             };
             function SettingToCommunityPath() {
