@@ -1859,7 +1859,7 @@ function intervalTiming() {
             postScrollableNumber = postTotalList;
         }
         function postScrollable() {
-            postScrollableNumber = postScrollableNumber - 26;
+            postScrollableNumber = postScrollableNumber - 31;
             if (postScrollableNumber >= 0){
                 return postScrollableNumber;
             }else {
@@ -1878,7 +1878,7 @@ function intervalTiming() {
                     document.getElementById('post-loading').classList.add('show')
                     document.getElementById("post-end-message").style.display = "none";
                     document.getElementById("post-loading").style.display = "flex";
-                    document.querySelectorAll(".scroll-to-message-post")[25].scrollIntoView();
+                    document.querySelectorAll(".scroll-to-message-post")[30].scrollIntoView();
                 };
             }
         }, { passive: true });
@@ -1894,7 +1894,7 @@ function intervalTiming() {
         }
         var postTotalList;
         function postTotalListFunc(params) {
-            postTotalList = params - 4;
+            postTotalList = params - 31;
             if(postBoolean === false){
                 postScrollNumberFunc()
                 postBoolean = true;
