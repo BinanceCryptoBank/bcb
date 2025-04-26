@@ -4921,7 +4921,7 @@
         padding: 1.5px;
         border-radius: 15px 15px 1.5px 1.5px;
         position: relative;
-        max-height: 15em;
+        max-height: 25em;
     }
     .post-txt {
         padding: 1em 0 0.25em 0;
